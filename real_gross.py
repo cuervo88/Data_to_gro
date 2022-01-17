@@ -8,7 +8,7 @@ import argparse
 import sys
 import os
 
-parser = argparse.ArgumentParser(prog ="too_gross" ,description='Transform a data file of coordinates into a gro file f\
+parser = argparse.ArgumentParser(prog ="real_gross" ,description='Transform a data file of coordinates into a gro file f\
 ormat for AZT simulations')
 parser.add_argument('-f','--file',type=argparse.FileType('r',encoding='UTF-8'), required=True, help='File location')
 parser.add_argument('-o','--output',type=str, help='Output file and location')
